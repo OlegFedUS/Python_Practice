@@ -2,6 +2,14 @@ forNames = ["Bllly", "Van", "Kazua"]
 forNames.append("Obama")
 forNames.insert(0, "Biollante")
 
+j = 0
+
+for i in forNames:
+    j = len(i)
+    print(i)
+
+print(j)
+
 #print(forNames[0])
 
 ################
@@ -25,15 +33,11 @@ for i in range(len(randomNum) - 1):
         if randomNum[j] > randomNum[j + 1]:
             randomNum[j], randomNum[j + 1] = randomNum[j + 1], randomNum[j]
 
-print(randomNum)
+#print(randomNum)
 
 x = 12
 y = 6
 
-if x < y:
-    print("x lesser then y")
-else:
-    print("x larger then y")
 
 
 
